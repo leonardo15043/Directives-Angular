@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgStyleComponent } from './components/ng-style/ng-style.component';
 import { ClasesComponent } from './components/clases/clases.component';
 import { ResaltadoDirective } from './directives/resaltado.directive';
+import { NgSwiftComponent } from './components/ng-swift/ng-swift.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ResaltadoDirective } from './directives/resaltado.directive';
     AppComponent,
     NgStyleComponent,
     ClasesComponent,
-    ResaltadoDirective
+    ResaltadoDirective,
+    NgSwiftComponent
   ],
   imports: [
     BrowserModule
